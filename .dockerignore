@@ -1,0 +1,11 @@
+.git
+.github
+logs
+*.log
+*.tmp
+tmp
+grade.sh
+tests
+scripts
+README.md
+compose.yaml

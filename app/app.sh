@@ -1,7 +1,4 @@
-#!/usr/bin/env bash
-# app.sh <command> [args]
-# Commands: system-info | check-host <host> | check-port <host> <port> | help
-# Exit codes: 0 success, 1 operational failure, 2 invalid input
+#!/bin/bash
 
 set -u
 
@@ -23,7 +20,7 @@ EOF
 }
 
 cmd_system_info() {
-    echo "===== System Information ====="
+    echo "====================== System Information ========================="
     echo "Hostname : $(hostname)"
     echo "User     : $(whoami)"
     echo "Date     : $(date '+%Y-%m-%d %H:%M:%S %Z')"

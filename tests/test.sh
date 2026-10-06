@@ -1,6 +1,4 @@
-#!/usr/bin/env bash
-# tests/test.sh — 8+ tests for app/app.sh. Run directly against the script,
-# no Docker required (Docker smoke tests live in scripts/build.sh).
+#!/bin/bash
 
 set -u
 cd "$(dirname "${BASH_SOURCE[0]}")/.." || exit 1

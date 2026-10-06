@@ -1,6 +1,4 @@
-#!/usr/bin/env bash
-# scripts/build.sh — builds the Docker image and runs smoke tests against it.
-# Called directly by developers, and by the "docker" CI job.
+#!/bin/bash
 
 set -u
 cd "$(dirname "${BASH_SOURCE[0]}")/.." || exit 1

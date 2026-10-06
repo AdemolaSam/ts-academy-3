@@ -1,4 +1,4 @@
-# Assignment 3 — CI/CD with GitHub Actions
+# CI/CD with GitHub Actions
 
 A Bash CLI (`app/app.sh`) validated, tested, and Docker-smoke-tested through a
 GitHub Actions pipeline running locally-equivalent scripts. No cloud deployment.
@@ -60,12 +60,7 @@ validate  ->  test  ->  docker
 
 ### CI failure demonstration
 
-<!-- Fill in once you've done this on GitHub:
-1. Branch: `ci-failure-demo`
-2. Introduced <describe the break, e.g. a syntax error in app/app.sh>
-3. Pushed — CI failed at the `<job name>` job: <link to failed run>
-4. Fixed the issue, pushed again — CI passed: <link to passing run>
--->
+
 
 ## Assumptions
 

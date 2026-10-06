@@ -1,6 +1,4 @@
-#!/usr/bin/env bash
-# lint.sh — checks required files exist and validates Bash syntax.
-# ShellCheck is run as an extra check when available, but does not fail the build.
+#!/bin/bash
 
 set -u
 cd "$(dirname "${BASH_SOURCE[0]}")/.." || exit 1

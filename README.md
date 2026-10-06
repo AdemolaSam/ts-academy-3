@@ -60,6 +60,10 @@ validate  ->  test  ->  docker
 
 ### CI failure demonstration
 
+ 1. Branch: `ci-failure-demo` 
+ 2. Introduced a syntax error in app/app.sh (I removed the closing 'fi' in the first if statement)
+ 3. Pushed — CI failed at the `validate` job [link to failed run](https://github.com/AdemolaSam/ts-academy-3/actions/runs/37471636641)
+ 4. Fixed the issue, pushed again — CI passed: [link to passing run](https://github.com/AdemolaSam/ts-academy-3/actions/runs/37474292776)
 
 
 ## Assumptions

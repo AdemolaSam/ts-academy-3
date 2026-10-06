@@ -65,7 +65,7 @@ cmd_check_port() {
     if [[ -z "$host" || -z "$port" ]]; then
         echo "Error: 'check-port' requires <host> <port>" >&2
         return 2
-    fi
+
 
     if ! [[ "$port" =~ ^[0-9]+$ ]] || (( port < 1 || port > 65535 )); then
         echo "Error: port must be an integer between 1 and 65535, got '$port'" >&2
